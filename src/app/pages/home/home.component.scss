@@ -1,0 +1,219 @@
+$fontFamily: "RobotoSlab";
+
+.homepage {
+    padding-right: 25px;
+    &-section1 {
+        background: url("./../../../assets/img_1-1-bkg.png")
+        no-repeat center center;
+        background-size: cover;
+        background-position: top;
+        width: 100%;
+        height: 100vh;
+    }
+}
+.homepage-section1-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 30px;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    &-logo {
+        width: 80%;
+        height: 80%;
+    }
+    &-menuitems{
+        color: white;
+        font-size: 18px;
+        line-height: 22px;
+        font-family: $fontFamily;
+        margin-left: 15px;
+        margin-right: 15px;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    &-homebtn {
+        width: 144px;
+        height: 47px;
+        color: white;
+        font-size: 18px;
+        line-height: 22px;
+        font-family: $fontFamily;
+        border: 1.5px solid white;
+        border-radius: 23px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 20px;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    &-loginbtn {
+        width: 144px;
+        height: 47px;
+        border-radius: 23px;
+        border: 1.5px solid #db1f63;
+        color: #db1f63;
+        font-family: $fontFamily;
+        font-size: 19px;
+        font-weight: bold;
+        line-height: 23px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 15px;
+        margin-left: 15px;
+        &:hover {
+            cursor: pointer;
+            color: white;
+            background-color: #db1f63;
+        }
+    }
+    &-socialbtn {
+        color: #db1f63;
+        width: 34px;
+        height: 34px;
+        border-radius: 17px;
+        border: 1.5px solid #db1f63;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+        margin-right: 10px;
+        &:hover {
+            cursor: pointer;
+            color: white;
+            background-color: #db1f63;
+        }
+    }
+}
+.homepage-section1-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    &-personimg {
+        margin-left: 10%;
+        width: 80%;
+        height: 80%;
+    }
+    &-right {
+        display: flex;
+        flex-direction: column;
+        &-up {
+            display: flex;
+            flex-direction: row;
+            &-text {
+                display: flex;
+                flex-direction: column;
+                align-items: right;
+                margin-right: 100px;
+                &-bigtitle {
+                    color: #db1f63;
+                    font-size: 105px;
+                    font-family: $fontFamily;
+                    font-weight: bold;
+                    line-height: 109px;
+                    text-align: right;
+                }
+                &-smalltitle {
+                    color: #401a62;
+                    font-size: 57px;
+                    font-family: $fontFamily;
+                    font-weight: 500;
+                    line-height: 61px;
+                    text-align: right;
+                }
+                &-desp {
+                    color: #05113b;
+                    font-size: 19px;
+                    font-family: $fontFamily;
+                    font-weight: bold;
+                    line-height: 23px;
+                    text-align: right;
+                    margin-top: 30px;
+                }
+                &-btn {
+                    color: #b42969;
+                    font-size: 23px;
+                    line-height: 27px;
+                    font-weight: bold;
+                    font-family: $fontFamily;
+                    width: 247px;
+                    height: 64px;
+                    border-radius: 32px;
+                    border: 2px solid #b42969;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    float: right;
+                    margin-top: 50px;
+                    margin-bottom: 20%;
+                    &:hover {
+                        color: white;
+                        background-color: #b42969;
+                        cursor: pointer;
+                    }
+                }
+            }
+            &-smallcircles {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                &-on {
+                    width: 14px;
+                    height: 14px;
+                    border-radius: 7px;
+                    background-color: #793888;
+                    margin-bottom: 10px;
+                    margin-top: 10px;
+                }
+                &-off {
+                    width: 14px;
+                    height: 14px;
+                    border-radius: 7px;
+                    background-color: #382067; 
+                    opacity: 29%;
+                    margin-bottom: 10px;
+                    margin-top: 10px;   
+                }
+            }
+        }
+        &-down {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            &-smallcircles {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                &-on {
+                    width: 14px;
+                    height: 14px;
+                    border-radius: 7px;
+                    background-color: #793888;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                }
+                &-off {
+                    width: 14px;
+                    height: 14px;
+                    border-radius: 7px;
+                    background-color: #382067; 
+                    opacity: 29%;
+                    margin-left: 10px;
+                    margin-right: 10px;   
+                }
+            }
+            &-quizimg {
+                width: 80%;
+                height: 80%;
+            }
+        }
+
+    }
+}
